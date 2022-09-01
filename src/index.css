@@ -6,6 +6,7 @@
 
   --black-color: #000000;
   --white-color: #ffffff;
+  --text-color: #363333;
 }
 
 
@@ -23,4 +24,9 @@
   max-width: 1092px;
   margin: 0 auto;
   padding: 0 1.25rem;
+}
+
+.p-text{
+  font-size: 1.125rem;
+  line-height: 1.25;
 }

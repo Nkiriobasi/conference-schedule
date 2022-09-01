@@ -1,5 +1,5 @@
 import React from 'react';
-import { Hero, Navigation } from '../../container';
+import { Hero, Navigation, Subscription } from '../../container';
 
 
 const Home = () => {
@@ -8,6 +8,7 @@ const Home = () => {
       <Navigation />
       <main>
         <Hero />
+        <Subscription />
       </main>
     </>
   );
