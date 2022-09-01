@@ -1,0 +1,54 @@
+.hero{
+    width: 100%;
+    height: 100vh;
+    padding: 12.5rem 0;
+    display: flex;
+    background-color: rgb(31 41 55);
+
+    .hero__content{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: center;
+        color: var(--white-color);
+        font-family: var(--Josefin-font);
+
+        .hero__bold-text{
+            font-size: 4.5rem;
+            line-height: 1;
+            margin-bottom: 0.5rem;
+        }
+    
+        .hero__semibold-text{
+            font-size: 2.25rem;
+            line-height: 1;
+            margin-bottom: 2rem;
+        }
+    
+        .hero__paragh-text{
+            font-size: 1.125rem;
+            line-height: 1;
+            margin-bottom: 2rem;
+        }
+    
+        .hero__btn-link{
+            width: auto;
+            height: auto;
+            padding: 0.875rem 1.625rem;
+            background: rgb(21 94 117);
+            border-radius: 0.25rem;
+    
+            .hero__btn-link-text{
+                color: var(--white-color);
+                font-size: 1.125rem;
+                font-family: var(--Josefin-font);
+                font-style: normal;
+                font-weight: 700;
+            }
+        }
+        .hero__btn-link:hover{
+            background: rgb(22 78 99);
+        }
+    }
+}
