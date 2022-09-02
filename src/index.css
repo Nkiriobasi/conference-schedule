@@ -20,6 +20,13 @@
   scroll-behavior: smooth;
 }
 
+.section{
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 6.25rem 0;
+}
+
 .container{
   max-width: 1092px;
   margin: 0 auto;
