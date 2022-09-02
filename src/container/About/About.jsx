@@ -1,9 +1,10 @@
 import React from 'react';
 import './About.scss';
+import { images } from '../../constants';
 
 const About = () => {
   return (
-    <section className='about section'>
+    <section id='about' className='section'>
         <div className="container">
             <div className="about__content">
                 <h2 className="about__h2">
@@ -31,31 +32,36 @@ const About = () => {
                 
                 <div className="teams__wrapper">
                     <div className="teams">
-                        <img src="" alt="" />
+                        <img src={images.nextjs} alt="nextjs icon" className='team-icon' />
+                        <p className="team-text">Next.js</p>
                     </div>
                     <div className="teams">
-                        <img src="" alt="" />
+                        <img src={images.reactQuery} alt="react Query icon" className='team-icon' />
+                        <p className="team-text">React Query</p>
                     </div>
                     <div className="teams">
-                        <img src="" alt="" />
+                        <img src={images.typescript} alt="typescript icon" className='team-icon' />
+                        <p className="team-text">TypeScript</p>
                     </div>
                     <div className="teams">
-                        <img src="" alt="" />
+                        <img src={images.tailwindcss} alt="tailwindcss icon" className='team-icon' />
+                        <p className="team-text">Tailwind CSS</p>
                     </div>
                     <div className="teams">
-                        <img src="" alt="" />
+                        <img src={images.remix} alt="remix icon" className='team-icon' />
+                        <p className="team-text">Remix</p>
                     </div>
                     <div className="teams">
-                        <img src="" alt="" />
+                        <img src={images.cloudflareworker} alt="cloudflare worker icon" className='team-icon cloudf-worker' />
+                        <p className="team-text">Cloudflare Workers</p>
                     </div>
                     <div className="teams">
-                        <img src="" alt="" />
+                        <img src={images.redwoodjs} alt="redwoodjs icon" className='team-icon' />
+                        <p className="team-text">RedwoodJS</p>
                     </div>
                     <div className="teams">
-                        <img src="" alt="" />
-                    </div>
-                    <div className="teams">
-                        <img src="" alt="" />
+                        <img src={images.graphql} alt="graphQl icon" className='team-icon' />
+                        <p className="team-text">GraphQL</p>
                     </div>
                 </div>
             </div>

@@ -12,10 +12,18 @@ const Navigation = () => {
         </div>
 
         <ul className="nav__links">
-          <Link to='/about' className="nav__link"><li className='nav__link-item'>About</li></Link>
-          <Link to='/location' className="nav__link"><li className='nav__link-item'>Location</li></Link>
-          <Link to='/food' className="nav__link"><li className='nav__link-item'>Food</li></Link>
-          <Link to='/schedule' className="nav__link"><li className='nav__link-item'>Schedule</li></Link>
+          <a href='#about' className="nav__link">
+            <li className='nav__link-item'>About</li>
+          </a>
+          <Link to='/location' className="nav__link">
+            <li className='nav__link-item'>Schedule</li>
+          </Link>
+          <Link to='/food' className="nav__link">
+            <li className='nav__link-item'>Food</li>
+          </Link>
+          <Link to='/schedule' className="nav__link">
+            <li className='nav__link-item'>Location</li>
+          </Link>
         </ul>
       </div>
     </nav>
