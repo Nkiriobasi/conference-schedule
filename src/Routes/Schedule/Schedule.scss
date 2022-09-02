@@ -1,0 +1,22 @@
+.schedule__hd{
+    width: 100%;
+    height: auto;
+    padding: 8.75rem 0 4.375rem;
+
+    .schedule__hd-date{
+        width: 100%;
+        font-size: 1.5rem;
+        line-height: 1.2;
+        margin-bottom: 1.5rem;
+        text-align: center;
+        color: rgb(180 83 9);
+    }
+
+    .schedule__hd-title{
+        width: 100%;
+        font-size: 3rem;
+        line-height: 1;
+        color: var(--text-color);
+        text-align: center;
+    }
+}

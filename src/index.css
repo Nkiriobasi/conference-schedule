@@ -7,6 +7,10 @@
   --black-color: #000000;
   --white-color: #ffffff;
   --text-color: #363333;
+  --orange-color: rgb(180 83 9);
+  --dark-orange-color: rgb(146 64 14);
+  --blue-color: rgb(21 94 117);
+  --dark-blue-color: rgb(22 78 99);
 }
 
 
@@ -36,4 +40,21 @@
 .p-text{
   font-size: 1.125rem;
   line-height: 1.25;
+}
+
+
+.btn-link{
+  width: auto;
+  height: auto;
+  display: inline-block;
+  padding: 0.875rem 1.625rem;
+  border-radius: 0.25rem;
+}
+
+.btn-link-text{
+  color: var(--white-color);
+  font-size: 1.125rem;
+  font-family: var(--Josefin-font);
+  font-style: normal;
+  font-weight: 700;
 }

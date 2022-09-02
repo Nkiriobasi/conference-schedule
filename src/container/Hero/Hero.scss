@@ -1,9 +1,9 @@
 .hero{
     width: 100%;
     height: 100%;
-    padding: 12.5rem 0;
+    padding: 13.125rem 0;
     display: flex;
-    background-color: rgb(31 41 55);
+    background-color: rgb(82 82 82);
 
     .hero__content{
         display: flex;
@@ -29,24 +29,14 @@
         .p-text{
             margin-bottom: 2rem;
         }
-    
-        .hero__btn-link{
-            width: auto;
-            height: auto;
-            padding: 0.875rem 1.625rem;
-            background: rgb(21 94 117);
-            border-radius: 0.25rem;
-    
-            .hero__btn-link-text{
-                color: var(--white-color);
-                font-size: 1.125rem;
-                font-family: var(--Josefin-font);
-                font-style: normal;
-                font-weight: 700;
-            }
-        }
-        .hero__btn-link:hover{
-            background: rgb(22 78 99);
+
+
+        .btn-link{
+            background: var(--blue-color);
+
+            &:hover{
+                background: var(--dark-blue-color);
+              }
         }
     }
 }

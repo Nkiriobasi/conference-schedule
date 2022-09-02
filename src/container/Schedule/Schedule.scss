@@ -1,0 +1,72 @@
+.schedule__content{
+    width: 100%;
+    background-color: var(--orange-color);
+    color: var(--white-color);
+    font-family: var(--Josefin-font);
+    padding: 2.5rem 5rem;
+    border-radius: 1rem;
+
+    .schedule__heading{
+        width: 100%;
+        font-size: 1.5rem;
+        line-height: 1.1;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+    .schedule__info{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+
+        .schedule__info-item{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: flex-start;
+            margin-bottom: 3rem;
+
+            .schedule__info-date{
+                margin-right: 1.5rem;
+                width: auto;
+                height: auto;
+                border: 1px solid var(--white-color);
+                border-radius: 0.25rem;
+                padding: 0.375rem;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: flex-start;
+
+                .alphabetic-char{
+                    font-size: initial;
+                    line-height: 1;
+                }
+            }
+
+            .p-text:not(:last-child){
+                margin-bottom: 0.625rem;
+            }
+
+            .p-text::before{
+                content: "🤙";
+                font-size: 1rem;
+                margin-right: 0.5rem;
+            }
+        }
+    }
+
+    .schedule__btn{
+        width: 100%;
+        text-align: center;
+
+        .btn-link{
+            background: var(--blue-color);
+
+            &:hover{
+                background: var(--dark-blue-color);
+              }
+        }
+    }
+}

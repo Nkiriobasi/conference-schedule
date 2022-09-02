@@ -52,10 +52,15 @@
                     font-weight: 500;
                     color: var(--text-color);
                     transition: all 0.5s ease;
+
+                    &:hover{
+                        color: rgb(21 94 117);
+                        text-decoration: underline;
+                    }
                 }
-                .nav__link-item:hover{
-                    color: rgb(21 94 117);
+                .nav__link-item.active{
                     text-decoration: underline;
+                    color: rgb(21 94 117);
                 }
             }
 
